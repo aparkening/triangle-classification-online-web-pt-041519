@@ -16,7 +16,7 @@ class Triangle
       # The sum of any 2 lengths exceed 3rd length
     if (s1 > 0 && s2 > 0 && s3 > 0) && ((s1 + s2) > s3 && (s1 + s3) > s2 && (s2 + s3) > s1 ) 
       # Equilateral if all sides equal
-      if s1 == s2 && s2 == s3 && s1 == s3
+      if s1 == s2 && s2 == s3
         return :equilateral
 
       # Isosceles if two sides equal
